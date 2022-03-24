@@ -1,0 +1,156 @@
+A:link {color: #333333;}
+
+A:visited {color: #333333;}
+
+A:active {color: crimson;}
+
+A:hover {color: crimson; text-decoration: underline;}
+
+A {text-decoration: none;}
+
+body {font-family:  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.HeaderRow
+
+	{
+
+	font-size:0.9em;
+
+/*	font-family:Verdana, Arial, sans-serif;*/
+	font-weight:normal;
+
+	color:#F7F7F7;
+
+	cursor:default;
+
+	}
+
+
+
+.CalCntrl
+
+	{color:#660000;
+
+	cursor:hand;
+
+	}
+
+
+
+.HeaderRow A
+
+	{
+
+	color:#660000;
+
+	text-decoration:none;
+
+	}
+
+
+
+.BodyRow 
+
+	{
+
+	font-size:1em;
+
+/*	font-family:Verdana, Arial, Helvetica, sans-serif;*/
+
+	color:#333333;
+
+	font-weight: normal;
+
+	}
+
+
+
+.WeekDays 
+
+	{
+
+	font-size:1em;
+
+	font-family:sans-serif;
+
+	font-weight:bold;
+
+	color:#660000;
+
+	cursor:default;
+	
+
+	border-style:solid;
+
+	border-width:1px;
+
+	border-left: none;
+
+	border-top:none;
+
+	border-right:none;
+
+	border-bottom-color:gray;
+
+	}
+
+
+
+.tblCal
+
+	{
+		/*background-color:#660000;*/
+		color:#FFF;
+		    border-radius: 8px;
+			border: solid 1px #999;
+
+	}
+
+
+
+.DayCell
+
+	{
+
+/*	background:#ECE9D8;
+
+	border-style:solid;*/
+/*
+	border-width:1px;
+
+	border-left-color:white;
+
+	border-top-color:white;
+
+	border-right-color:gray;
+
+	border-bottom-color:gray;*/
+
+	cursor:hand;
+
+	}
+
+
+
+.DayCell2
+
+	{
+
+	color:crimson;
+
+	background:#F0EFD0;
+
+/*	border-style:solid;
+
+	border-width:1px;
+
+	border-color:silver;*/
+
+	cursor:default;
+
+	}
+
+.calendarHeader {
+	background-color:#999;
+	color:#660000;
+	border-radius:8px 8px 0 0;}

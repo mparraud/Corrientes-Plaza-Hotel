@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>Using the DHTML Calendar Control</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language="javascript">
+
+var nWin = ""
+var UserDate = ""
+var ReturnEl = ""
+
+function showCalendar(elName)
+	{
+	Height = 174
+	Width = 245
+	Top = 100
+	Left = 100
+	
+	el = document.forms["FormName"].elements[elName]
+	UserDate = el.value
+	ReturnEl = elName
+	
+	if (nWin == "")
+		{
+		nWin = window.open("cal_dhtml.htm", "Calendar", "height=" + Height + ",width=" + Width 
+			+ ",top=" + Top + ",left=" + Left + ",status=no,toolbar=no,menubar=no,"
+			+ "location=no,resizable=no,scrollbars=no")
+		nWin.opener = window
+		}
+	else
+		{
+		CloseNWin()
+		showCalendar(elName)
+		}	
+	}
+	
+function CloseNWin()
+	{
+	if (nWin != "")
+		{
+		nWin.close()
+		nWin = ""
+		}
+	}
+	
+</script></head>
+
+<body bgcolor="#FFFFFF" text="#000000" onunload="CloseNWin()">
+<form method="post" action="cal_dhtml_demo.htm" name="FormName">
+
+  <table width="100%" border="0" cellspacing="3" cellpadding="5">
+    <tr> 
+      <td align="left" valign="bottom" nowrap> <font face="Times New Roman,Times,serif" size="4"><b> 
+        The Ashley Group, Ltd.</b></font><br>
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#003399"><b> 
+        </b></font></td>
+      <td align="left" valign="middle" width="40%" rowspan="2"> 
+        <table border="1" cellspacing="0" cellpadding="20" bgcolor="#FFFFCC">
+          <tr> 
+                  <td align="center" valign="middle" nowrap> 
+							<font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+                     	Click on the Show Calendar link<br>
+                     	to display the DHTML version of<br>
+                     	the Javascript Calendar Control.
+							</font> 
+              			<br>
+                     <br>
+                     <input type="text" name="txtDate" size="10">
+                     <a href="javascript:showCalendar('txtDate')"> 
+								<b><font face="Verdana,Arial,sans-serif" size="1" color="#003366"> 
+                     		Show Calendar</font></b></a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+         <td align="left" valign="top" nowrap><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#003399"><b>USING 
+            THE DHTML CALENDAR CONTROL</b></font></td>
+    </tr>
+    <tr> 
+         <td colspan="2"> The The Ashley Group, Ltd.'s DHTML Calendar Control 
+            is a pop-up calendar designed to work in all 4.0+ browsers. Implementing 
+            the DHTML Calendar Control is relatively easy. It assumes that all 
+            of the source files (CAL_DHTML.HTM, CAL_DHTML.CSS, CAL_DHTML.JS,and 
+            CAL_DHTML_DEMO.HTM) are in the same directory.<br>
+        <br>
+            To implement DHTML Calendar Control, you will need an HTML page containing, 
+            at a minimum, the following two elements: 
+            <ul>
+               <li>A text box and link or button that will be used to initiate 
+                  the calendar's display and capture the user's date selection; 
+                  and 
+               <li>Javascript code that will initiate the calendar's display. 
+            </ul>
+            <font size="4"><b>Text Box and Link</b></font><br>
+        <br>
+        The text box and link above are implemented with the following HTML code:<br>
+        <br>
+            <pre>	<font color="#003399">&lt;input type=&quot;text&quot; name=&quot;txtDate&quot; size=&quot;10&quot;&gt;
+	&lt;a href=&quot;javascript:showCalendar('txtDate')&quot;&gt;
+		&lt;b&gt;&lt;font face=&quot;Verdana,Arial,sans-serif&quot; size=&quot;1&quot; color=&quot;#003366&quot;&gt;
+			Show Calendar&lt;/font&gt;&lt;/b&gt;&lt;/a&gt;</font></pre>
+            Note that the argument to the showCalendar(&quot;ElementName&quot;) 
+            function is the name of the text box. In other words, you can name 
+            your text box anything you want as long as that name is passed as 
+            the argument to the showCalendar() function.<br>
+        <br>
+            <font size="4"><b>showCalendar() Function</b></font><br>
+        <br>
+            The showCalendar() function is displayed below along with its dependencies. 
+            (This code is the same as the code used by this page to display the 
+            calendar in the link above.) This function sets up the required global 
+            variables and opens the DHTML Calendar Control in a pop-up window. 
+            <pre><font color="#009900">// Declare and initialize global variables.</font><font color="#003399">
+var nWin = ""			<font color="#009900">// references the pop-up window.</font>
+var UserDate = ""		<font color="#009900">// references the value in the text box</font>
+var ReturnEl = ""		<font color="#009900">// references the name of the text box</font>
+
+<font color="#009900">// Display the DHTML Calendar Control calendar</font>
+function showCalendar(elName)
+	{
+<font color="#009900">	// Height and width are directly tied to the row height and
+	// column width in the HTML below</font>.
+	Height = 174
+	Width = 245<font color="#009900">	// Top and left define the calendar's position on the screen.</font>
+	Top = 100
+	Left = 100
+	
+	el = document.forms["FormName"].elements[elName]
+	UserDate = el.value		<font color="#009900">// Save the current value of the text box.</font>
+	ReturnEl = elName		<font color="#009900">// Save the name of the text box.</font>
+	
+<font color="#009900">	// If no pop-up window is open, then open the calendar. If a pop-up window
+	// is open, close it and then open the calendar. (We only want one pop-up
+	// open at a time to conserve the user's resources.)</font>
+	if (nWin == "")
+		{
+		nWin = window.open("cal_dhtml.htm", "Calendar", "height=" + Height + ",width=" + Width 
+			+ ",top=" + Top + ",left=" + Left + ",status=no,toolbar=no,menubar=no,"
+			+ "location=no,resizable=no,scrollbars=no")
+		nWin.opener = window
+		}
+	else
+		{
+		CloseNWin()
+		showCalendar(elName)
+		}	
+	}
+
+<font color="#009900">// Close the current pop-up window. Note that the BODY's ONUNLOAD event
+// calls this routine so that any pop-up windows called from this page
+// are closed if the user leaves the page.</font>
+function CloseNWin()
+	{
+	if (nWin != "")
+		{
+		nWin.close()
+		nWin = ""
+		}
+	}</font></pre>
+        If you View Source on this page, you will see all of these implementations 
+        in action. <br>
+        <br>
+            <font size="4"><b>Calendar Control User Notes</b></font><br>
+            <br>
+            The Calendar Control is a pop-up calendar that allows users to navigate 
+            to and select the date they want. To navigate, the following controls 
+            are available: 
+            <ul>
+               <li><b>&lt;&lt;</b> - Jump to previous year 
+               <li><b>&lt;</b> - Jump to previous month 
+               <li><b>^</b> - Return to original date 
+               <li><b>&gt;</b> - Jump to next month 
+               <li><b>&gt;&gt;</b> - Jump to next year 
+            </ul>
+            When a user clicks on a date, the date is inserted into the associated 
+            text box and the calendar control is closed. <br>
+            <br>
+            <font size="4"><b>Usage Agreement</b></font><br>
+        <br>
+            The Ashley Group, Ltd. grants the user a nonexclusive, nontransferable, 
+            revocable license to use the DHTML Calendar Control object code and/or 
+            documentation packaged in the CAL_DHTML.ZIP download file pursuant 
+            to the following restrictions: 
+            <ol>
+					<li>The user accurately completes and submits the Registration Form 
+            on The Ashley Group, Ltd.'s Web site prior to downloading the selected 
+            file. <p>
+					<li>All references and links to The Ashley Group, Ltd. in the downloaded 
+            files may not be altered or removed. Any display of the downloaded 
+            files to third parties must contain the copyright notification for 
+            and link to The Ashley Group, Ltd. <p>
+					<li>All code and/or documentation remains the property of The Ashley 
+            Group, Ltd. and may not be distributed to third parties for sale or 
+            otherwise without the express written permission of The Ashley Group, 
+            Ltd. <p>
+            	<li>All software and/or documentation in the downloaded files is provided 
+            &quot;as is&quot; without warranty of any kind, either expressed or 
+            implied. <p>
+            	<li>The Ashley Group, Ltd. reserves the right to revoke these usage 
+            rights in whole or in part at any time with or without reason upon 
+            written notification to the user. 
+				</ol>
+         </td>
+    </tr>
+  </table>
+
+</form>
+</body>
+</html>
