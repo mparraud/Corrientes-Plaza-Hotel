@@ -9,9 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Corrientes Plaza Hotel</title>
+    <title>Useful Data - Corrientes Plaza Hotel</title>
 
-    <!-- Bootstrap Core CSS -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZTFLHYTPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2ZTFLHYTPB');
+</script>
+
+<!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -32,7 +42,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+    <a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 </head>
 
 <body id="page-top" class="datos">
@@ -87,90 +101,34 @@ luctuate between 20 and 23 ºC.</p>
           <p>Business hours are from Monday to Friday, from 8:30 a.m. to 12:30 a.m. and from 17:00 p.m. to 21:00 p.m. Saturdays from 9:00 a.m. to 13:00 p.m. and 17:00 p.m. to 20:30 p.m.</p>		
           <p>&nbsp;</p>
 </div>
-	</div>
-<hr />
-	<div class="col-md-3">
-	<span class="glyphicon glyphicon-cutlery icons-color fa-3x icon-marginTop"></span>
-	  <h4>Restaurants/Resto/ Teashop</h4>
-	  <p><strong>El Mirador – Restaurant/Grill</strong><br />
-	    Av. Costanera y San Martín <br />
-	    TEL: (0379) 4461806</p>
-	  <p><strong>Enofilos– Restaurant</strong><br />
-	    Junin 1250 <br />
-      TEL: (0379) 4429366-4423861-4427210</p>
-	  <p><strong>Yacaru Pora – Restaurant</strong><br />
-	    Av. Centenario 4350 <br />
-      TEL: (0379) 4458800</p>
-	  <p><strong>Casanova– Restaurant</strong><br />
-	    Av. 25 de Mayo y Santa Fé<br />
-      TEL: (0379) 4464208</p>
-	  <p><strong>Mizza– Resto Bar </strong><br />
-	    Av. Costanera y Pedro Quevedo <br />
-      TEL: (0379) 4434516</p>
-	  <p><strong>Casino– Restaurant</strong><br />
-	    Av. Costanera y C. Pellegrini <br />
-      TEL: (0379) 4460360</p>
-	  <p><strong>Tipico– Restaurant</strong><br />
-	    Plaza Italia between Quintana and
-	    Placido Martinez<br />
-      TEL: (0379) 4463866-4433666</p>
-	  <p><strong>Enrico– Restaurant</strong><br />
-      Catamarca y Bolivar</p>
-	  <p><strong>Bonafide– Resto Bar </strong><br />
-      Junin 1207 TEL: (0379) 4424329</p>
-	  <p><strong>Cristóbal –</strong> Resto bar<br />
-Quevedo y Costanera TEL: (0379) 4469318</p>
-	  <p><strong> Cristóbal del Puerto –</strong> Resto bar<br />
-      Av. Italia y Placido Martínez</p>
-	  <p><strong> Gitana –</strong> Pizza <br />
-Vera y Catamarca TEL: (0379) 4438038</p>
-	  <p><strong> Cantinflas – </strong>Mexican Food<br />
-      Av. Pujol y Uruguay </p>
-	</div>
-	<div class="col-md-3">
-	<span class="glyphicon glyphicon-shopping-cart icons-color icon-marginTop  fa-3x"></span>
-	  <h4>Shopping</h4>
-	  <p><strong>Supermarket Walt Mart</strong><br />
-	    av. Centenario y av. Pomar</p>
-	  <p><strong>Pringamoza - Leather shop</strong><br />
-      Catamarca y 9 de Julio</p>
-	  <p><strong>Pasión Gaucha - Leather shop</strong><br />
-      San Lorenzo entre San Martin y Bolivar</p>
-	  <p><strong>Centenario Shopping Mall – Shopping </strong><br />
-      Av. Centenario 3535 </p>
-	  <p><strong>Wal Mart – Shopping </strong><br />
-	    Av. Gregorio Pomar 840<br />
-      TEL: 0800-888-9256</p>
-	  <p><strong>Carrefour – Supermarket </strong><br />
-	    Av. Ferre y Av. Chacabuco<br />
-      TEL: (0379) 4460498</p>
-	</div>
-	<div class="col-md-3"><span class="glyphicon glyphicon-plane icons-color icon-marginTop  fa-3x"></span>
-	  <h4>Airports</h4>
-	  <p><strong>Corrientes Airport</strong><br />
+
+
+<div class="col-md-1">
+            <span class="glyphicon glyphicon-plane icons-color   fa-3x"></span>
+        </div>
+        <div class="col-md-6">
+        <h4>Airports</h4>
+        <div class="col-md-4">	  
+        <p><strong>Corrientes Airport</strong><br />
 	    Ruta 12 Km 7<br />
       TEL (0379) 4458684</p>
-	  <p><strong>Resistencia Airport</strong><br />
+    </div>
+        <div class="col-md-4">	  
+        <p><strong>Resistencia Airport</strong><br />
       (0362) 4446801 </p>
-	  <p> <strong>Aerolíneas Argentinas </strong><br />
+    </div>
+        <div class="col-md-4">	  
+    <p> <strong>Aerolíneas Argentinas </strong><br />
 	    Junin y Cordoba<br />
       TEL: 0810-222-86527</p>
+    
+    </div>
+        </div>
+
+
+
 	</div>
-	<div class="col-md-3"><span class="fa fa-automobile icons-color icon-marginTop fa-3x"></span>
-	  <h4>Car Rent</h4>
-	  <p><strong>AVIS – Car Rent </strong><br />
-	    Stand at Corrientes Airport<br />
-      TEL: (0362) 154565428 / (0362)-4450066</p>
-	  <p><strong>Golf Club</strong><br />
-	    KM 1500 Way to Santa Ana.<br />
-      TEL (0379) 4424372</p>
-	  <p><strong>Gold Rent a Car</strong><br />
-	    Tel: (0362) 4428497 <br />
-	    Fax: (0362) 4462940<br />
-      Cel: (0362) 154604338</p>
-	</div>
-  </div>
-</div>
+
     </section>
 
     <?php include 'inc_footer_en.php';?>
@@ -178,172 +136,7 @@ Vera y Catamarca TEL: (0379) 4438038</p>
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contato - Corrientes Plaza Hotel</title>
+    <title>Reservation - Corrientes Plaza Hotel</title>
 
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZTFLHYTPB"></script>
@@ -52,60 +52,37 @@
 <a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
+<script type="text/javascript"
+src="https://booking.roomcloud.net/be/js/iframeResizer.min.js"></script>
 </head>
 
-<body id="page-top" class="contacto">
+<body id="page-top" class="reservas">
 
     <!-- Navigation -->
-    <?php include 'inc_navigation_pt.php';?>
+            <?php include 'inc_navigation_en.php';?>
 
-<section id="contacto">
+<section id="reservas">
   <div class="container">
-    <h1>Contato</h1>
-    <div class="col-md-12 foto-contacto">
-          <img src="img/hotel/contacto-header.jpg" class="img-responsive"  alt="" />  
-    </div> <!-- Fin foto contacto */ -->
-<div class="contacto-datos>">
-    <!-- <div class="row"> -->
-      <div class="col-md-5 col-md-offset-1 redes-sociales">
-        <div class="row mar-bot-20">
-          <div class="col-xs-2 col-md-1" >
-            <img src="img/hotel/ig.png" width="30"  alt="Instagram" />  
-          </div> <!-- fin icono IG */ -->
-          <div class="col-xs-10 col-md-11">
-            <a href="https://www.instagram.com/corrientesplazahotel/" target="_blank">@corrientesplazahotel</a>
-          </div>  <!-- fin link IG */ -->
-        </div> <!-- fin row ig */ -->
-        <div class="row mar-bot-20">
-          <!-- <div class="col-md-1" >
-          <img src="img/hotel/fb.png" width="30" alt="Facebook" />  
-          </div>
-          <div class="col-md-11">
-            <a href="https://www.instagram.com/corrientesplazahotel/" target="_blank">@corrientesplazahotel</a>
-          </div> -->
-      </div> <!-- fin row FB */ -->
-      </div>  <!-- fin redes sociales */ -->
-      <div class="col-md-6 telefonos-contacto redes-sociales">
-        <p><strong>Tel: </strong> 0379-4466500 / 4421346 / 4431298 </p>
-           <p> <strong>hotelplaza_reservas@hotmail.com</strong></p>		<p>&nbsp;</p>
+    <h1>Reservation</h1>
+    <div class="col-md-12">
 
-           <div class="row mar-bot-20">
-          <div class="col-xs-2 col-md-1" >
-          <img src="img/hotel/wa.png" width="30" alt="Icono WhatsApp" />  
-          </div>
-          <div class="col-xs-10 col-md-11">
-            <a href="https://wa.me/5493794673837" target="_blank">+54 9 3794-67-3837</a>
-          </div>      
-      </div>
-    </div>     <!--  fin telefonos contacto -->
-  </div> <!-- fin row bajo contactos -->
-    <!-- </div>  fin contacto-datos -->
+    <iframe src="https://booking.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=en"
+width="100%" frameborder="0" scrolling="no"></iframe>
+<script type="text/javascript">
+iFrameResize({
+checkOrigin: false,
+enablePublicMethods: true,
+bodyBackground: 'transparent'
+});
+</script>
+</div> 
+
 
   </div>   <!-- Fin container  -->
  		</section>
 
     <!-- Footer -->
-    <?php include 'inc_footer_pt.php';?>
+      <?php include 'inc_footer_en.php';?> 
 
 
 
@@ -125,7 +102,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
 <!--    <script src="js/cbpAnimatedHeader.js"></script> -->
 

@@ -9,7 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Corrientes Plaza Hotel</title>
+    <title>Dados Úteis - Corrientes Plaza Hotel</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZTFLHYTPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2ZTFLHYTPB');
+</script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +42,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+    <a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 </head>
 
 <body id="page-top" class="datos">
@@ -75,89 +89,29 @@
           <p>O horário bancário normal é de segunda a sexta-feira, das 7:00 às 11:00. O horário comercial é de segunda a sexta-feira, das 8:30 às 12:30 e das 17:00 às 21:00, e sábados das 9:00 às 13:00 e das 17:00 às 20:30.</p>		
           <p>&nbsp;</p>
 </div>
-	</div>
-<hr />
-	<div class="col-md-3">
-	<span class="glyphicon glyphicon-cutlery icons-color fa-3x icon-marginTop"></span>
-	  <h4>Restaurantes/Resto-Bares/Casas de chá	  </h4>
-	  <p><strong>El Mirador – Restaurante/Churrascaria </strong><br />
-	    Av. Costanera y San Martín <br />
-	    TEL: (0379) 4461806</p>
-	  <p><strong>Enofilos– Restaurant</strong>e<br />
-	    Junin 1250 <br />
-      TEL: (0379) 4429366-4423861-4427210</p>
-	  <p><strong>Yacaru Pora – Restaurant</strong>e<br />
-	    Av. Centenario 4350 <br />
-      TEL: (0379) 4458800</p>
-	  <p><strong>Casanova– Restaurant</strong><br />
-	    Av. 25 de Mayo e Santa Fé<br />
-      TEL: (0379) 4464208</p>
-	  <p><strong>Mizza– Resto Bar </strong><br />
-Av. Costanera e Pedro Quevedo<br />
-      TEL: (0379) 4434516</p>
-	  <p><strong>Casino– Restaurant</strong><br />
-	    Av. Costanera e C. Pellegrini <br />
-      TEL: (0379) 4460360</p>
-	  <p><strong>Tipico– Restaurant</strong><br />
-	    Plaza Italia, entre Quintana e Plácido Martínez<br />
-      TEL: (0379) 4463866-4433666</p>
-	  <p><strong>Enrico– Restaurant</strong><br />
-      Catamarca e Bolivar</p>
-	  <p><strong>Bonafide– Resto Bar </strong><br />
-      Junin 1207 TEL: (0379) 4424329</p>
-	  <p><strong>Cristóbal –</strong> Resto bar<br />
-Quevedo y Costanera TEL: (0379) 4469318</p>
-	  <p><strong> Cristóbal del Puerto –</strong> Resto bar<br />
-      Av. Italia y Placido Martínez</p>
-	  <p><strong> Gitana –</strong> Pizza <br />
-Vera y Catamarca TEL: (0379) 4438038</p>
-	  <p><strong> Cantinflas – </strong>Mexican Food<br />
-      Av. Pujol y Uruguay </p>
-	</div>
-	<div class="col-md-3">
-	<span class="glyphicon glyphicon-shopping-cart icons-color icon-marginTop  fa-3x"></span>
-	  <h4>Supermercados, shoppings e outros</h4>
-	  <p><strong>Supermercado Walmart<br />
-      </strong>Av. Centenario e Av. Pomar</p>
-	  <p><strong>Pringamoza - Artigos de couro </strong><br />
-	    Catamarca e 9 de Julio</p>
-	  <p><strong>Pasión Gaucha -  Artigos de couro </strong><br />
-      San Lorenzo entre San Martin e Bolivar</p>
-	  <p><strong>Centenario Shopping Mall – Shopping </strong><br />
-      Av. Centenario 3535 </p>
-	  <p><strong>WalMart – Shopping </strong><br />
-	    Av. Gregorio Pomar 840<br />
-      TEL: 0800-888-9256</p>
-	  <p><strong>Supermercado Carrefour  </strong><br />
-	    Av. Ferre e Av. Chacabuco<br />
-      TEL: (0379) 4460498</p>
-	</div>
-	<div class="col-md-3"><span class="glyphicon glyphicon-plane icons-color icon-marginTop  fa-3x"></span>
-	  <h4>Aeroportos</h4>
-	  <p><strong>Aeroporto de Corrientes<br />
-	    </strong>Rodovia 12 km 7<br />
+<div class="col-md-1">
+            <span class="glyphicon glyphicon-plane icons-color   fa-3x"></span>
+        </div>
+        <div class="col-md-6">
+        <h4>Aeroportos</h4>
+        <div class="col-md-4">	  
+        <p><strong>Aeroporto de Corrientes<br />
+        </strong>Rodovia 12 km 7<br />
 	    TEL (0379) 4458684</p>
-	  <p><strong>Aeroporto de Resistencia </strong><br />
+    </div>
+        <div class="col-md-4">	  
+        <p><strong>Aeroporto de Resistencia </strong><br />
       (0362) 4446801 </p>
-	  <p> <strong>Aerolíneas Argentinas </strong><br />
-	    Junin e Cordoba<br />
+    </div>
+        <div class="col-md-4">	  
+        <p> <strong>Aerolíneas Argentinas </strong><br />
+	    Junin y Cordoba<br />
       TEL: 0810-222-86527</p>
+    </div>
+        </div>
 	</div>
-	<div class="col-md-3"><span class="fa fa-automobile icons-color icon-marginTop fa-3x"></span>
-	  <h4>Aluguel de carros</h4>
-	  <p><strong>AVIS – Aluguel de carros<br />
-	    </strong>Balcão de atendimento no Aeroporto de Corrientes<br />
-      TEL: (0362) 154565428 / (0362)-4450066</p>
-	  <p><strong>Golf Club</strong><br />
-	    KM 1500 Caminho à Santa Ana<br />
-      TEL (0379) 4424372</p>
-	  <p><strong>Gold Rent a Car – Aluguel de carros</strong><br />
-	    Tel: (0362) 4428497 <br />
-	    Fax: (0362) 4462940<br />
-      Cel: (0362) 154604338</p>
-	</div>
-  </div>
-</div>
+
+
     </section>
 
     <?php include 'inc_footer_pt.php';?>

@@ -1,7 +1,7 @@
 <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-8">Copyright Corrientes Plaza Hotel - Alll rights reserved. - Terms and conditions<br/>
+                <div class="col-md-8">Copyright Corrientes Plaza Hotel - All rights reserved <?php echo  date("Y");?> - Terms and conditions<br/>
                <img src="img/hotel/gr_footer_data.png" class="dataFiscal">
               </div>
               <div class="col-md-4">

@@ -9,7 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Corrientes Plaza Hotel</title>
+    <title>Meetings & Events - Corrientes Plaza Hotel</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZTFLHYTPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2ZTFLHYTPB');
+</script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +47,11 @@
       <link rel="stylesheet" type="text/css" href="css/carousel_custom.css">
 
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
- 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 </head>
 
 <body id="page-top" class="salones">

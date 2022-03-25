@@ -10,7 +10,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Corrientes Plaza Hotel</title>
+    <title>Rooms - Corrientes Plaza Hotel</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZTFLHYTPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2ZTFLHYTPB');
+</script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +46,11 @@
     <!-- galleries -->
       <link rel="stylesheet" type="text/css" href="css/carousel_custom.css">
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+<a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 </head>
 
 <body id="page-top" class="habitaciones">
@@ -64,6 +78,7 @@
               <li>celente nível.</li>
               <li>Os quartos em suíte contam com uma confortável sala de estar e sacada com vista para o jardim.</li>
             </ul>
+            <p class="checkinout">CHECK IN 13HS / CHECK OUT 11HS</p>
             <h5>Cartões:</h5>
             <p><img src="img/hotel/img_creditCards.png" width="427" height="54" alt="tarjetas" class="img-adjusted-creditcards"></p>
           </div>
@@ -81,7 +96,7 @@
                   <div class='item'><img src='img/hotel/hab_smp_02.jpg' alt='' /></div>
                 </div>
                 <!-- Controls -->
-                <a class='left carousel-control' href='#carousel-custom' data-slide='prev'> <span class='glyphicon glyphicon-chevron-left'></span></a> <a class='right carousel-control' href='#carousel-custom' data-slide='next'> <span class='glyphicon glyphicon-chevron-right'></span></a></div>
+                <a class='left carousel-control' href='#carousel-custom5' data-slide='prev'> <span class='glyphicon glyphicon-chevron-left'></span></a> <a class='right carousel-control' href='#carousel-custom5' data-slide='next'> <span class='glyphicon glyphicon-chevron-right'></span></a></div>
             </div>
           </div>
           <div class="col-md-5">
@@ -91,8 +106,6 @@
               <li> WiFi</li>
               <li> Telefone</li>
             </ul>
-            <p><strong>Horário do café da manhã buffet:</strong><br />
-            de segunda a domingo, das 6:30 às 10:30.</p>
           </div>
         </div>
         <hr class="featurette-divider">
@@ -133,8 +146,6 @@
               <li> WiFi</li>
               <li> Telefone</li>
             </ul>
-            <p><strong>Horário do café da manhã buffet:</strong><br />
-              de segunda a domingo, das 6:30 às 10:30.</p>
           </div>
         </div>
         <!--/main slider carousel-->
@@ -168,8 +179,6 @@
               <li> WiFi</li>
               <li> Telefone</li>
             </ul>
-            <p><strong>Horário do café da manhã buffet:</strong><br />
-              de segunda a domingo, das 6:30 às 10:30.</p>
           </div>
         </div>
         
@@ -200,8 +209,6 @@
           <li> WiFi</li>
           <li> Telefone</li>
         </ul>
-        <p><strong>Horário do café da manhã buffet:</strong><br />
-          de segunda a domingo, das 6:30 às 10:30.</p>
       </div>
           
     </div>
@@ -241,8 +248,6 @@
           <li> WiFi</li>
           <li> Telefone</li>
         </ul>
-        <p><strong>Horário do café da manhã buffet:</strong><br />
-        de segunda a domingo, das 6:30 às 10:30.</p>
       </div>
           
     </div>

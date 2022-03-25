@@ -10,7 +10,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Corrientes Plaza Hotel</title>
+    <title>Habitaciones - Corrientes Plaza Hotel</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZTFLHYTPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2ZTFLHYTPB');
+</script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +46,11 @@
     <!-- galleries -->
       <link rel="stylesheet" type="text/css" href="css/carousel_custom.css">
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+<a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 </head>
 
 <body id="page-top" class="habitaciones">
@@ -63,6 +77,7 @@
               <li>Baños de lujo equipados con griferías cromadas con sistema monocomando y revestimientos de excelente nivel</li>
               <li>          Las habitaciones en suite cuentan con un confortable living, estar y balcón con vista al jardín.</li>
             </ul>
+			  <p class="checkinout">CHECK IN 13HS / CHECK OUT 11HS</p>
             <h5>Tarjetas:</h5>
             <p><img src="img/hotel/img_creditCards.png" width="427" height="54" alt="tarjetas" class="img-adjusted-creditcards"></p>
           </div>
@@ -79,7 +94,7 @@
                   <div class='item'><img src='img/hotel/hab_smp_02.jpg' alt='' /></div>
                 </div>
                 <!-- Controls -->
-                <a class='left carousel-control' href='#carousel-custom' data-slide='prev'> <span class='glyphicon glyphicon-chevron-left'></span> </a> <a class='right carousel-control' href='#carousel-custom' data-slide='next'> <span class='glyphicon glyphicon-chevron-right'></span> </a> </div>
+                <a class='left carousel-control' href='#carousel-custom5' data-slide='prev'> <span class='glyphicon glyphicon-chevron-left'></span> </a> <a class='right carousel-control' href='#carousel-custom5' data-slide='next'> <span class='glyphicon glyphicon-chevron-right'></span> </a> </div>
             </div>
           </div>
           <div class="col-md-5">
@@ -91,8 +106,7 @@
               <li>WiFi</li>
               <li>Télefono</li>
             </ul>
-            <p><strong>Horario de desayuno buffet:</strong><br />
-              Lunes a Domingos de 6:30 a 10:30 Hs.</p>
+
           </div>
         </div>
         <hr class="featurette-divider">
@@ -133,8 +147,7 @@
               <li>WiFi</li>
               <li>Télefono</li>
             </ul>
-            <p><strong>Horario de desayuno buffet:</strong><br>
-              Lunes a Domingos de 6:30 a 10:30 Hs.</p>
+
           </div>
         </div>
         <!--/main slider carousel-->
@@ -168,8 +181,7 @@
               <li>WiFi</li>
               <li>Télefono</li>
             </ul>
-            <p><strong>Horario de desayuno buffet:</strong><br>
-              Lunes a Domingos de 6:30 a 10:30 Hs.</p>
+
           </div>
         </div>
         
@@ -200,8 +212,7 @@
           <li>WiFi</li>
           <li>Télefono</li>
         </ul>
-        <p><strong>Horario de desayuno buffet:</strong><br>
-Lunes a Domingos de 6:30 a 10:30 Hs.</p>
+
       </div>
           
     </div>
@@ -240,8 +251,7 @@ Lunes a Domingos de 6:30 a 10:30 Hs.</p>
           <li>WiFi</li>
           <li>Télefono</li>
         </ul>
-        <p><strong>Horario de desayuno buffet:</strong><br>
-          Lunes a Domingos de 6:30 a 10:30 Hs.</p>
+
       </div>
           
     </div>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Corrientes Plaza Hotel</title>
+    <title>Servicios - Corrientes Plaza Hotel</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -50,6 +50,11 @@ $(document).ready(function() {
 });//]]> 
 
 </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 </head>
 
 <body id="page-top" class="servicios">
@@ -65,8 +70,8 @@ $(document).ready(function() {
         </div>
         <div class="col-md-3">
           <ul class="roomDetails">
-            <li> Room service 24hs. </li>
             <li>TV LCD con cable</li>
+            <li>2 pc para uso de los huéspedes</li>
             <li> Piscina al aire libre</li>
             <li>Gimnasio</li>
             <li> Calefacción y refrigeración</li>
@@ -76,10 +81,9 @@ $(document).ready(function() {
 </div>
         <div class="col-md-3">
           <ul class="roomDetails">
-            <li> Uso libre de internet en lobby del hotel</li>
-            <li>Habitaciones alfombradas</li>
-            <li> Lavandería</li>
-            <li>Tintorería</li>
+            <li>Wifi libre y gratuito</li>
+            <li> Lavandería con cargo</li>
+            <li>Tintorería con cargo</li>
             <li> Secador de cabello</li>
             <li>Sala de masajes</li>
           </ul>
@@ -91,13 +95,14 @@ $(document).ready(function() {
         </div>
         <div class="col-md-3">
           <ul class="roomDetails">
-            <li> Desayuno buffet</li>
+            <li> Desayuno</li>
             <li> Cerraduras por tarjeta codificada</li>
-            <li> Frigobar</li>
             <li> Area médica protegida</li>
             <li> Caja de seguridad</li>
             <li>Salones de conferencias</li>
-</ul></div>
+			  
+			</ul>			 </br><p class="checkinout">CHECK IN 13HS / CHECK OUT 11HS</p>
+</div>
         <div class="col-md-3">
           <ul class="roomDetails">
             <li>Cochera con cargo de acuerdo a disponibilidad</li>
@@ -110,6 +115,7 @@ $(document).ready(function() {
       </div>
       </div>
       <div class="container">
+
         <hr class="featurette-divider">
         <!-- main slider carousel -->
         <div class="row">
@@ -178,25 +184,25 @@ $(document).ready(function() {
               <div class='carousel-outer'>
                 <!-- Wrapper for slides -->
                 <div class='carousel-inner'>
-                  <div class='item active'><img src='img/hotel/servicios_desayunador/desayunador_01.jpg' alt='' /></div>
-                  <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_02.jpg' alt='' /></div>
-                  <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_03.jpg' alt='' /></div>
-                  <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_04.jpg' alt='' /></div>
+                  <!-- <div class='item active'><img src='img/hotel/servicios_desayunador/desayunador_01.jpg' alt='' /></div>
+                  <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_02.jpg' alt='' /></div> -->
+                  <div class='item active'><img src='img/hotel/servicios_desayunador/desayunador_03.jpg' alt='' /></div>
+                  <!-- <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_04.jpg' alt='' /></div> -->
                   <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_05.jpg' alt='' /></div>
                   <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_06.jpg' alt='' /></div>
-                  <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_07.jpg' alt='' /></div>
-                  <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_08.jpg' alt='' /></div>
+                  <!-- <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_07.jpg' alt='' /></div>
+                  <div class='item'><img src='img/hotel/servicios_desayunador/desayunador_08.jpg' alt='' /></div> -->
                 </div>
                 <!-- Controls -->
                 <a class='left carousel-control' href='#carousel-custom2' data-slide='prev'> <span class='glyphicon glyphicon-chevron-left'></span> </a> <a class='right carousel-control' href='#carousel-custom2' data-slide='next'> <span class='glyphicon glyphicon-chevron-right'></span> </a> </div>
             </div>
           </div>
           <div class="col-md-5">
-            <h3>Desayuno Buffet</h3>
+            <h3>Desayuno</h3>
             <ul>
-              <li>Ofrecemos a nuestros clientes un buffet libre con productos variados y regionales para que desayune lo que más le gusta.</li>
-              <li><strong>Horario de desayuno buffet:</strong><br>
-              Lunes a Domingos de 6:30 a 10:30 Hs.</li>
+              <li>Ofrecemos a nuestros clientes un desayuno libre con productos variados y regionales para que desayune lo que más le gusta.</li>
+              <li><strong>Horario de desayuno:</strong><br>
+              Lunes a Domingos de 7:00 a 10:00 Hs.</li>
             </ul>
           </div>
         </div>

@@ -1,6 +1,6 @@
 <!-- languageBar -->
 	<div class="languageBar">
-<!--        <a class="langES" href="home.php"></a> -->
+       <!-- <a class="langES" href="home.php"></a> -->
         <a class="langEN" href="en_index.php"></a>
         <a class="langPT" href="pt_index.php"></a>
     </div>
@@ -30,12 +30,15 @@
             <li class="serviciosON"> <a class="page-scroll" href="servicios.php">
               <div class="ic-menu-servicios"></div>
               Servicios</a></li>
-            <li class="contactoON"> <a class="page-scroll" href="https://www.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=es&curr=ARS">
+            <li class="reservasON"> <a class="page-scroll" href="https://www.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=es&curr=ARS">
               <div class="ic-menu-reservas"></div>
-              Reservas/ Contactos</a></li>
+              Reservas</a></li>
             <li class="datosON"> <a class="page-scroll" href="datos.php">
               <div class="ic-menu-datos"></div>
               Datos Útiles</a></li>
+            <li class="contactoON"> <a class="page-scroll" href="contacto.php">
+              <div class="ic-menu-contacto"></div>
+              Contacto</a></li>  
           </ul>
         </div>
         <!-- /.navbar-collapse -->
