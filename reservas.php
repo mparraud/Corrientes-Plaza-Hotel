@@ -62,10 +62,10 @@
 <section id="reservas">
   <div class="container">
     <h1>Reservas</h1>
-    <div class="col-md-12">
-    <iframe src="https://booking.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=es&curr=ARS"
+    <!-- <div class="col-md-12"> -->
+    <iframe src="https://booking.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=es&curr=ARS&t=0"
 width="100%" height="2000" frameborder="0"></iframe>
-</div> 
+<!-- </div>  -->
 
 
   </div>   <!-- Fin container  -->
