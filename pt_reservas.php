@@ -63,7 +63,7 @@
   <div class="container">
     <h1>Reservas</h1>
     <div class="col-md-12">
-    <iframe src="https://booking.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=pt&curr=BRL"
+    <iframe src="https://booking.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=pt&curr=BRL&t=0&h=0"
 width="100%" height="2000" frameborder="0"></iframe>
 </div> 
 
