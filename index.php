@@ -21,6 +21,7 @@
   gtag('config', 'G-2ZTFLHYTPB');
 </script>
 
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -46,7 +47,13 @@
     <a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
 </head>
 
 <body id="page-top" class="home">
@@ -65,7 +72,19 @@
           </div>
         </div>
     </header>
-
+    <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+				<p>Reservando por la web, obtené <strong> 5% de descuento.</strong></p>
+                <p class="boton-reservar"><a href="reservas.php" class="boton-popup">Reservar</a></p>
+            </div>
+        </div>
+    </div>
+</div>
 <section id="carrouselHome">
 <div class="container">
     <div class="col-md-12">
