@@ -30,7 +30,7 @@
             <li class="serviciosON"> <a class="page-scroll" href="en_services.php">
               <div class="ic-menu-servicios"></div>
               Services</a></li>
-            <li class="reservasON"> <a class="page-scroll" href="https://www.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=en&curr=USD">
+            <li class="reservasON"> <a class="page-scroll" href="en_reservation.php">
               <div class="ic-menu-reservas"></div>
               Reservation</a></li>
             <li class="datosON"> <a class="page-scroll" href="en_data.php" >

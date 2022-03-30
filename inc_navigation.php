@@ -1,4 +1,4 @@
-<!-- languageBar -->
+ß<!-- languageBar -->
 	<div class="languageBar">
        <!-- <a class="langES" href="home.php"></a> -->
         <a class="langEN" href="en_index.php"></a>
@@ -30,7 +30,7 @@
             <li class="serviciosON"> <a class="page-scroll" href="servicios.php">
               <div class="ic-menu-servicios"></div>
               Servicios</a></li>
-            <li class="reservasON"> <a class="page-scroll" href="https://www.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=es&curr=ARS">
+            <li class="reservasON"> <a class="page-scroll" href="reservas.php">
               <div class="ic-menu-reservas"></div>
               Reservas</a></li>
             <li class="datosON"> <a class="page-scroll" href="datos.php">
