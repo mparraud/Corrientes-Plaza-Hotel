@@ -803,11 +803,12 @@ float:right;*/
 
 div.modal-body {
     text-align: center;
+    margin-bottom:20px;
+
   }
   
   div.modal-body p {
     font-size: 2rem;
-    margin-bottom: 4rem;
     font-family: Montserrat;
   }
   
@@ -820,4 +821,15 @@ div.modal-body {
     background-color:floralwhite;
     border:5px solid brown;
     margin-top:20%;
+  }
+  .boton-popup {
+    font-family: montserrat;
+    font-size: 2rem;
+    text-decoration: none;
+    background-color:darkred ;
+    color: #fff;
+    padding: 1rem 1.5rem;
+  }
+  p.boton-reservar {
+    margin-top:2em;
   }

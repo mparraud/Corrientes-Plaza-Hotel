@@ -80,6 +80,7 @@
             </div>
             <div class="modal-body">
 				<p>Reservando por la web, obtené <strong> 5% de descuento.</strong></p>
+                <p class="boton-reservar"><a href="reservas.php" class="boton-popup">Reservar</a></p>
             </div>
         </div>
     </div>
