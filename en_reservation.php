@@ -66,7 +66,7 @@ src="https://booking.roomcloud.net/be/js/iframeResizer.min.js"></script>
     <h1>Reservation</h1>
     <div class="col-md-12">
 
-    <iframe src="https://booking.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=en"
+    <iframe src="https://booking.roomcloud.net/be/se1/hotel.jsp?hotel=7538&lang=en&t=0&h=0"
 width="100%" frameborder="0" scrolling="no"></iframe>
 <script type="text/javascript">
 iFrameResize({
