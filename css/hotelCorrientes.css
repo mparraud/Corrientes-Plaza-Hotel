@@ -797,3 +797,27 @@ float:right;*/
         margin: 0 auto;
     }
 }
+
+
+/* Popup oferta */
+
+div.modal-body {
+    text-align: center;
+  }
+  
+  div.modal-body p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-family: Montserrat;
+  }
+  
+  div.modal-header {
+    border:none;
+  }
+  
+  div.modal-content {
+    border-radius: 20px;
+    background-color:floralwhite;
+    border:5px solid brown;
+    margin-top:20%;
+  }
