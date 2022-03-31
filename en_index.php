@@ -46,6 +46,14 @@
     <a href="https://api.whatsapp.com/send?phone=5493794673837" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
 </head>
 
 <body id="page-top" class="home">
@@ -64,7 +72,19 @@
           </div>
         </div>
     </header>
-
+    <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+				<p>Book through our website and get<strong> 5% discount.</strong></p>
+                <p class="boton-reservar"><a href="en_reservation.php" class="boton-popup">Reservation</a></p>
+            </div>
+        </div>
+    </div>
+</div>
 <section id="carrouselHome">
 <div class="container">
     <div class="col-md-12">
