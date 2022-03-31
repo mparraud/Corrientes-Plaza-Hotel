@@ -808,7 +808,7 @@ div.modal-body {
   }
   
   div.modal-body p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: Montserrat;
   }
   
@@ -819,15 +819,15 @@ div.modal-body {
   div.modal-content {
     border-radius: 20px;
     background-color:yellow;
-    border:5px solid red;
+    border:5px solid #5D0E07;
     margin-top:20%;
-    color:red;
+    color:#5D0E07;
   }
   .boton-popup {
     font-family: montserrat;
     font-size: 2rem;
     text-decoration: none;
-    background-color:red ;
+    background-color:#5D0E07 ;
     color: #fff;
     padding: 1rem 1.5rem;
   }
