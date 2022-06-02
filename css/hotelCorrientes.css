@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* CSS Document v3.0*/
+/* CSS Document v3.0.1*/
 
 h1,
 h2,
@@ -289,14 +289,14 @@ header .intro-text .intro-lead-in {
     background-repeat: no-repeat;
     background-position: center top;
     color: #FFF;
-    text-align: left;
+    text-align: center;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+    padding:20px;
 }
 
 #homeBanner .home_banner01 .text1 {
     font-size: 2.3em;
     line-height: 1em;
-    padding: 30px 0 0 30%;
 }
 #homeBanner .home_banner01 .text1 p {
     margin-bottom:0;
