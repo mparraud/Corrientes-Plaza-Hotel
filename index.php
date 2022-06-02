@@ -65,9 +65,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">Un lugar ejecutivo<br>
-                para disfrutar todo el año</div>
-                                <div class="intro-lead-in">En el punto más estratégico de Corrientes</div>
+                <div class="intro-heading">¡Bienvenidos!</div>
+                                <div class="intro-lead-in">Nos encontramos en el punto más estratégico de Corrientes. Calidez y Confort todo el año. </div>
 
           </div>
         </div>
