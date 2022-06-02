@@ -91,7 +91,6 @@ $(document).ready(function() {
           <ul class="roomDetails">
             <li>Free wifi</li>
             <li>IDD and NDD</li>
-            <li>Laundry with charge</li>
             <li>Dry cleaner with charge</li>
             <li>Hairdryer</li>
             <li>Massage room</li>

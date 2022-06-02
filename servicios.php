@@ -82,7 +82,6 @@ $(document).ready(function() {
         <div class="col-md-3">
           <ul class="roomDetails">
             <li>Wifi libre y gratuito</li>
-            <li> Lavandería con cargo</li>
             <li>Tintorería con cargo</li>
             <li> Secador de cabello</li>
             <li>Sala de masajes</li>

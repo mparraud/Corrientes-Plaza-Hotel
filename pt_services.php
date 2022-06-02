@@ -91,7 +91,6 @@ $(document).ready(function() {
           <ul class="roomDetails">
             <li>Wifi gratis</li>
             <li>DDI e DDN</li>
-            <li>Lavanderia com pagamento</li>
             <li>Tinturaria com pagamento</li>
             <li>Secador de cabelo </li>
             <li>Salão de massagens</li>
